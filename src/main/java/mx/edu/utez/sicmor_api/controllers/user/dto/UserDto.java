@@ -14,14 +14,14 @@ public class UserDto {
 
     private Long id;
 
-    private String username;
+    private String name;
 
     private String password;
 
     public User getUser() {
         return new User(
                 getId(),
-                getUsername(),
+                getName(),
                 getPassword()
         );
     }
